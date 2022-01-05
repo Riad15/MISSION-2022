@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gideon Roman', cursive;
+    
+}
+.flaxible-section{
+    display: flex;
+    justify-content: space-between;
+}
+.discription{
+    width: 40%;
+    margin: 3%;
+    padding: 5%;
+}
+#title{
+    font-family: 'Anton', sans-serif;
+    color:black;
+    font-weight:1200;
+    font-style: italic;
+    border-left: solid rgb(19, 3, 1) 9px;
+    border-radius: 2px;
+}
+.yello{
+    
+    color: tomato;
+}
+.discription p{
+    font-size: large;
+}
+.picture img{
+    width: 60%;
+    margin-left: 15%;
+    
+
+}
+button{
+    background-color: tomato;
+    font-size: larger;
+    padding: 10px 40px;
+    border:solid darkolivegreen 3px;
+    border-radius: 10px;
+}
+#head-line{
+    text-align: center;
+   font-family: 'Anton', sans-serif;
+    color:black;
+    font-weight:1200;
+    font-style: italic;
+}
+.card-section{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+.card{
+    padding: 10px;
+    width: 30%;
+    height: 500px;
+    border: solid black 4px;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+}
+.card h2{
+    text-align: center;
+}
+.card img{
+    margin-left: 10px;
+    width: 100%;
+}
